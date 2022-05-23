@@ -1,0 +1,130 @@
+BODY {
+  background: black;
+}
+        <link rel="shortcut icon" href="unilogo.png"/>
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+#way_one {
+      background: black;
+}
+#way_two {
+      background: #2C2C2C;
+}
+
+#firefive {
+      color:white;
+      font-weight: bold;
+                }
+#obertitle {
+      text-align: center;
+      font-family: 'Raleway', sans-serif;
+      color:white;
+}
+#logotext {
+      font-family: 'Raleway', sans-serif;
+      font-size: 25px;
+      text-align: center;
+      color: white;
+}
+#IP_cellar {
+      position: fixed;
+      left: 0; bottom: 0;
+      padding: 10px;
+      background: #808080;
+      color: white;
+      font-family: sans-serif;
+      font-size: 12px;
+      width: 100%;
+}
+  #kappe {
+      border: 0px;
+      border-color: black;
+      align="center";
+}
+.firethree > li {
+      font-family: fantasy;
+}
+#firesix {
+      border: 2px. solid white;
+}
+#bestseller {
+      border-color: #2c2c2c;
+      width: 200px;
+      color: white;
+      margin: auto;
+}
+#seller {
+      font-size: 20px;
+      font-family: 'Raleway', sans-serif;
+      text-align: right;
+}
+#selnerin {
+      text-align: left;
+      font-family: 'Raleway', sans-serif;
+      font-size: 20px;
+      color: #999999;
+}
+
+#seitetext_1 {
+      font-size: 25px;
+      color: white;
+      font-family: 'Raleway', sans-serif;
+      text-align: center;
+}
+#dreitexttt {
+      color: white;
+      text-align: left;
+      font-size: 12px;
+      font-family: sans-serif;
+      font-variant-caps: small-caps;
+}
+#das_bild1 {
+      text-align: center;
+}
+#das_bild2 {
+      text-align: center;
+}
+.photoway1 {
+      width: 150px;
+      display: block;
+      margin: 0 auto;
+      border-radius: 15px;
+}
+#foodobertext {
+      color: white;
+      font-family: 'Raleway', sans-serif;
+      font-size: 27px;
+      font-weight: bold;
+      text-align: center;
+}
+#foodtable {
+      color: white;
+      border-collapse: collapse;
+      border-color: black;
+      margin: auto;
+      font-size: 12px;
+      font-family: 'Raleway', sans-serif;
+}
+#fdt1 {
+      background: #191919;
+      color: white;
+      font-weight: bold;
+      font-size: 15px;
+}
+#general_line {
+      background: grey;
+}
+#waygen {
+      color: white;
+      font-family: 'Raleway', sans-serif;
+      text-align: center;
+      animation-name: none;
+      font-style: normal;
+      font-size: 20px;
+}
+
+.towaygen {
+      color: white;
+      font-family: 'Raleway', sans-serif;
+      text-align: center;
+  font-size: 15px;
+}

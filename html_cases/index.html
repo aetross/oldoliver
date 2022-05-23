@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<hmtl>
+  <head>
+    <title>Oliver</title>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Пицца в Мурино">
+    <meta name="description" content="Кафе-пиццерия в г.Мурино по адресу: ул. Шувалова 27/7">
+    <link rel="shortcut icon" href="unilogo.png"/>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+.wind {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+#piPie {
+  font-size: 12px;
+}
+.wind .uptext1 {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80%;
+}
+.wind .uptext1::after {
+ content: "";
+ position: absolute;
+ top: 100%;
+ left: 50%;
+ margin-left: -5px;
+ border-width: 5px;
+ border-style: solid;
+ border-color: #555 transparent transparent transparent;
+}
+.wind .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+@-webkit-keyframes fadeIn {
+  from {opasity: 0;}
+  to {opasity: 1;}
+}
+@keyframes fadeIn {
+  from {opasity: 0;}
+  to {opasity: 1;}
+}
+.razer {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+#colPie {
+  font-size: 12px;
+}
+.razer .getter1 {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80%;
+}
+.razer .getter1::after {
+ content: "";
+ position: absolute;
+ top: 100%;
+ left: 50%;
+ margin-left: -5px;
+ border-width: 5px;
+ border-style: solid;
+ border-color: #555 transparent transparent transparent;
+}
+.razer .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+@-webkit-keyframes fadeIn {
+  from {opasity: 0;}
+  to {opasity: 1;}
+}
+@keyframes fadeIn {
+  from {opasity: 0;}
+  to {opasity: 1;}
+}
+</style>
+        <link rel="stylesheet" href="genstyle.css"    <meta name="keywords" content="Пицца в Мурино">
+  </head>
+  <body style="text-align: center">
+    <section id="way_one">
+      <table id="kappe" border="1px">
+        <thead>
+          <tr>
+            <th><img src="gebildelogo.jpg" height="70px"</th>
+            <th id="logotext">Oliver</th>
+          </tr>
+        </thead>
+      </table>
+    <h1 id="obertitle">Наедине с пиццей в Oliver...</h1>
+    <p id="das_bild1"><a href="foodlist.html"><img src="gebilde_1.jpg" width="180" alt="expl"></a></p>
+    <p id="das_bild2"><a href="waylist.html"><img src="gebilde_2.jpg" width="180" alt="expl_a"></a></p>
+</section>
+<section id="way_two">
+  <br>
+    <p id="seitetext_1">Любимые всеми</p>
+    <table id="bestseller" border="0px">
+      <thead>
+        <tr>
+          <th rowspan="2"><img src="gebilde_ober_pizza.png" height="200x"</th>
+          <th id="seller">Chicken Ранч</th>
+            <th id="selnerin">420.00 руб
+
+        </tr>
+        <tr>
+
+        </tr>
+      </thead>
+    </table>
+
+
+    <div class="wind"
+    onclick="myFunction()">Посмотреть состав
+    <span class="uptext1" id="piPie">Бекон, курица, помидоры, сыр Моцарелла, сыр Тильзитёр,соус Пиццайло, итальянский соус, тесто</span>
+  </div>
+  <table id="bestseller" border="0px">
+    <thead>
+      <tr>
+        <th rowspan="2"><img src="gebilde_ober_pizza2.jpg" height="200x"</th>
+        <th id="seller">Руккола<br>+бекон</th>
+          <th id="selnerin">490.00 руб
+
+      </tr>
+      <tr>
+
+      </tr>
+    </thead>
+  </table>
+  <div class="razer"
+  onclick="myFunctions()">Посмотреть состав
+  <span class="getter1" id="colPie">Шампиньоны, помидоры, руккола, бекон, базилик, сыр Моцарелла, перец болгарский, соус Пиццайло, соус Ранч, соус итальянский, тесто</span>
+</div>
+  <script>
+  function myFunction() {
+    var wind =
+    document.getElementById("piPie");
+    wind.classList.toggle("show");
+  }
+  function myFunctions() {
+    var razer =
+    document.getElementById("colPie");
+    razer.classList.toggle("show");
+  }
+  </script>
+    <br>
+    <br>
+    <br>
+    <br>
+  </section>
+   <div id="IP_cellar">
+Заведение общественного питания "Кафе-пиццерия "Оливер"<br>
+Адрес: ЛО, Мурино г., мкр. Западный, ул. Шувалова 27/7<br>
+ИП Сизов В. В. 2019-2022.
+Разработано: ANDREI S.
+   </div>
+  </body>
+</html>
