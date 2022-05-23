@@ -128,3 +128,103 @@ BODY {
       text-align: center;
   font-size: 15px;
 }
+.wind {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+#piPie {
+  font-size: 12px;
+}
+.wind .uptext1 {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80%;
+}
+.wind .uptext1::after {
+ content: "";
+ position: absolute;
+ top: 100%;
+ left: 50%;
+ margin-left: -5px;
+ border-width: 5px;
+ border-style: solid;
+ border-color: #555 transparent transparent transparent;
+}
+.wind .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+@-webkit-keyframes fadeIn {
+  from {opasity: 0;}
+  to {opasity: 1;}
+}
+@keyframes fadeIn {
+  from {opasity: 0;}
+  to {opasity: 1;}
+}
+.razer {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+#colPie {
+  font-size: 12px;
+}
+.razer .getter1 {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80%;
+}
+.razer .getter1::after {
+ content: "";
+ position: absolute;
+ top: 100%;
+ left: 50%;
+ margin-left: -5px;
+ border-width: 5px;
+ border-style: solid;
+ border-color: #555 transparent transparent transparent;
+}
+.razer .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+@-webkit-keyframes fadeIn {
+  from {opasity: 0;}
+  to {opasity: 1;}
+}
+@keyframes fadeIn {
+  from {opasity: 0;}
+  to {opasity: 1;}
+}
