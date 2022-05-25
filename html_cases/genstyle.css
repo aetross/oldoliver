@@ -1,7 +1,6 @@
 BODY {
   background: black;
 }
-        <link rel="shortcut icon" href="unilogo.png"/>
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
 #way_one {
       background: black;
@@ -14,10 +13,79 @@ BODY {
       color:white;
       font-weight: bold;
                 }
-#obertitle {
+.genbild1 {
+border-radius: 100px;
+  animation: rotateEin 30s 0s infinite linear;
+}
+@keyframes rotateEin {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.genbild2 {
+border-radius: 100px;
+  animation: rotateZwei 30s 0s infinite linear;
+}
+@keyframes rotateZwei {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+.genbild3 {
+border-radius: 100px;
+  animation: rotateDrei 30s 0s infinite linear;
+}
+@keyframes rotateDrei {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.obertitle {
+      margin-top: 0px;
       text-align: center;
       font-family: 'Raleway', sans-serif;
-      color:white;
+      color: transparent;
+      background: url(1.jpg);
+      -webkit-background-clip: text;
+      animation: animate 30s infinite linear;
+      font-size: 35px;
+}
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid rgba(150, 150, 150, 0.2);
+  border-radius: 50%;
+  border-top-color: rgba(150, 150, 150);
+  margin: auto;
+  animation: loading 2s 0s infinite ease-in-out;
+}
+#soon {
+  color: white;
+}
+@keyframes loading {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes animate {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 100%;
+  }
 }
 #logotext {
       font-family: 'Raleway', sans-serif;
@@ -63,9 +131,19 @@ BODY {
       font-size: 20px;
       color: #999999;
 }
-
+#worktime {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  text-align: left;
+  margin: auto;
+}
+.timetowork {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
 #seitetext_1 {
-      font-size: 25px;
+      font-size: 35px;
       color: white;
       font-family: 'Raleway', sans-serif;
       text-align: center;
@@ -74,7 +152,7 @@ BODY {
       color: white;
       text-align: left;
       font-size: 12px;
-      font-family: sans-serif;
+      font-family: 'Raleway', sans-serif;
       font-variant-caps: small-caps;
 }
 #das_bild1 {
@@ -83,16 +161,28 @@ BODY {
 #das_bild2 {
       text-align: center;
 }
+#das_bild3 {
+  text-align: center;
+}
 .photoway1 {
       width: 150px;
       display: block;
       margin: 0 auto;
       border-radius: 15px;
 }
+#waytable {
+      margin: auto;
+      color: white;
+      font-family: 'Raleway', sans-serif;
+}
+#thewaykeeper {
+  font-size: 15px;
+  text-align: left;
+}
 #foodobertext {
       color: white;
       font-family: 'Raleway', sans-serif;
-      font-size: 27px;
+      font-size: 35px;
       font-weight: bold;
       text-align: center;
 }
@@ -107,124 +197,167 @@ BODY {
 #fdt1 {
       background: #191919;
       color: white;
-      font-weight: bold;
+      font-family: 'Raleway', sans-serif;
       font-size: 15px;
 }
-#general_line {
-      background: grey;
-}
-#waygen {
+.waygen {
       color: white;
       font-family: 'Raleway', sans-serif;
       text-align: center;
-      animation-name: none;
-      font-style: normal;
-      font-size: 20px;
-}
-
-.towaygen {
-      color: white;
-      font-family: 'Raleway', sans-serif;
-      text-align: center;
-  font-size: 15px;
+      font-size: 35px;
 }
 .wind {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
-  font-family: 'Raleway', sans-serif;
-  color: white;
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+      font-family: 'Raleway', sans-serif;
+      color: white;
 }
 #piPie {
-  font-size: 12px;
+      font-size: 12px;
 }
 .wind .uptext1 {
-  visibility: hidden;
-  width: 160px;
-  background-color: #555;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 8px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 125%;
-  left: 50%;
-  margin-left: -80%;
+      visibility: hidden;
+      width: 160px;
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 8px 0;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      margin-left: -80%;
 }
 .wind .uptext1::after {
- content: "";
- position: absolute;
- top: 100%;
- left: 50%;
- margin-left: -5px;
- border-width: 5px;
- border-style: solid;
- border-color: #555 transparent transparent transparent;
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: #555 transparent transparent transparent;
 }
 .wind .show {
-  visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s;
+      visibility: visible;
+      -webkit-animation: fadeIn 1s;
+      animation: fadeIn 1s;
 }
 @-webkit-keyframes fadeIn {
-  from {opasity: 0;}
-  to {opasity: 1;}
+      from {opasity: 0;}
+      to {opasity: 1;}
 }
 @keyframes fadeIn {
-  from {opasity: 0;}
-  to {opasity: 1;}
+      from {opasity: 0;}
+      to {opasity: 1;}
 }
 .razer {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
-  font-family: 'Raleway', sans-serif;
-  color: white;
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+      font-family: 'Raleway', sans-serif;
+      color: white;
 }
 #colPie {
-  font-size: 12px;
+      font-size: 12px;
 }
 .razer .getter1 {
-  visibility: hidden;
-  width: 160px;
-  background-color: #555;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 8px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 125%;
-  left: 50%;
-  margin-left: -80%;
+      visibility: hidden;
+      width: 160px;
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 8px 0;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      margin-left: -80%;
 }
 .razer .getter1::after {
- content: "";
- position: absolute;
- top: 100%;
- left: 50%;
- margin-left: -5px;
- border-width: 5px;
- border-style: solid;
- border-color: #555 transparent transparent transparent;
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: #555 transparent transparent transparent;
 }
 .razer .show {
-  visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s;
+      visibility: visible;
+      -webkit-animation: fadeIn 1s;
+      animation: fadeIn 1s;
 }
 @-webkit-keyframes fadeIn {
-  from {opasity: 0;}
-  to {opasity: 1;}
+      from {opasity: 0;}
+      to {opasity: 1;}
 }
 @keyframes fadeIn {
-  from {opasity: 0;}
-  to {opasity: 1;}
+      from {opasity: 0;}
+      to {opasity: 1;}
+}
+.honey {
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+      font-family: 'Raleway', sans-serif;
+      color: white;
+}
+#goal {
+      font-size: 12px;
+}
+.honey .cap {
+      visibility: hidden;
+      width: 160px;
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 8px 0;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      margin-left: -80%;
+}
+.honey .cap::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: #555 transparent transparent transparent;
+}
+.honey .show {
+      visibility: visible;
+      -webkit-animation: fadeIn 1s;
+      animation: fadeIn 1s;
+}
+@-webkit-keyframes fadeIn {
+      from {opasity: 0;}
+      to {opasity: 1;}
+}
+@keyframes fadeIn {
+      from {opasity: 0;}
+      to {opasity: 1;}
+}
+.genfeasttext {
+      text-align: center;
+      color: white;
+      font-family: 'Raleway', sans-serif;
 }
