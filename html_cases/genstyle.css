@@ -188,8 +188,6 @@ border-radius: 100px;
 }
 #foodtable {
       color: white;
-      border-collapse: collapse;
-      border-color: black;
       margin: auto;
       font-size: 12px;
       font-family: 'Raleway', sans-serif;
